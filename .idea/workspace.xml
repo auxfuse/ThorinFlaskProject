@@ -4,6 +4,7 @@
     <list default="true" id="c3f71917-bb1b-4f18-805c-a576f217c5d6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/company.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/company.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,7 +101,8 @@
       <workItem from="1572648521019" duration="2785000" />
       <workItem from="1572695684347" duration="8494000" />
       <workItem from="1572779905448" duration="10073000" />
-      <workItem from="1572809225385" duration="7122000" />
+      <workItem from="1572809225385" duration="7319000" />
+      <workItem from="1572894013784" duration="5758000" />
     </task>
     <servers />
   </component>
@@ -121,6 +123,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ThorinFlask$app.coverage" NAME="app Coverage Results" MODIFIED="1572821919270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ThorinFlask$app.coverage" NAME="app Coverage Results" MODIFIED="1572905972116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
