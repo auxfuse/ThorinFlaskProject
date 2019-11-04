@@ -1,8 +1,9 @@
 import os
 import json
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, flash
 
 app = Flask(__name__)
+app.secret_key = 'some_secret'
 
 @app.route("/")
 def index():
@@ -30,7 +31,7 @@ def about_member(member_name):
 @app.route("/contact", methods=["GET", "POST"])
 def contact():
     if request.method == "POST":
-        print(request.form["name"])
+        flash(f"Thanks {request.form['name']} we have received your message!")
     return render_template("contact.html", page_title="Contact")
 
 @app.route("/careers")
